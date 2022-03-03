@@ -198,6 +198,8 @@ input, select, textarea {
 					width: 900px;
 				}
 
+			
+
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2631,6 +2633,10 @@ input, select, textarea {
 		padding-top: 5em;
 	}
 
+	#consultButton{
+		display: none;
+	}
+
 /* CTA */
 
 	#cta {
@@ -2839,6 +2845,13 @@ input, select, textarea {
 				margin-bottom: 2em;
 			}
 
+			#meetButton{
+				display: none;
+			}
+			#consultButton{
+				display: unset;
+			}
+
 		/* CTA */
 
 			#cta {
@@ -2966,6 +2979,8 @@ input, select, textarea {
 			body.index #main {
 				padding-top: 4.5em;
 			}
+
+
 
 		/* CTA */
 
@@ -3212,6 +3227,14 @@ input, select, textarea {
 
 			footer.major {
 				padding-top: 0;
+			}
+
+			#meetButton{
+				display: none;
+			}
+
+			#consultButton{
+				display: unset;
 			}
 
 		/* Icon */
