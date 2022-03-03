@@ -2605,6 +2605,12 @@ input, select, textarea {
 		padding: 7em 0;
 	}
 
+	#me{
+		width: 25%;
+		border-radius: 100%;
+		margin-bottom: 2em;
+	}
+
 		#main > :last-child {
 			margin-bottom: 0;
 		}
@@ -2689,6 +2695,10 @@ input, select, textarea {
 			header.special {
 				padding-top: 5.5em;
 				margin-bottom: 4em;
+			}
+
+			header.special.container{
+				padding-top: 0;
 			}
 
 	}
@@ -2821,6 +2831,12 @@ input, select, textarea {
 
 			#main {
 				background-size: 15em;
+			}
+
+			#me{
+				width: 10em;
+				border-radius: 100%;
+				margin-bottom: 2em;
 			}
 
 		/* CTA */
