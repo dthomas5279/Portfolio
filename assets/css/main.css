@@ -2637,6 +2637,12 @@ input, select, textarea {
 		display: none;
 	}
 
+	header.special.container #title2 .icon{
+		padding-top:2em;
+	}
+
+
+
 /* CTA */
 
 	#cta {
@@ -3345,6 +3351,7 @@ input, select, textarea {
 				padding-bottom: 0;
 			}
 
+			
 		/* CTA */
 
 			#cta {
