@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
-/*
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1880,6 +1875,11 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
+		iframe{
+			max-width: 100%;
+			aspect-ratio: 640/360;
+		}
+
 			.image.featured img {
 				display: block;
 				width: 100%;
@@ -2096,9 +2096,9 @@ input, select, textarea {
 			padding: 1.5em 0 0 0;
 		}
 
-			ul.buttons.stacked li:first-child {
+			/*ul.buttons.stacked li:first-child {
 				padding: 0;
-			}
+			}*/
 
 /* Table */
 
@@ -2197,6 +2197,14 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		ul.buttons.stacked{
+			display: flex;
+		}
+
+		input[type="button"].fit{
+			flex: 1;
+		}
+
 		input[type="button"].small,
 		input[type="submit"].small,
 		input[type="reset"].small,
@@ -2225,6 +2233,10 @@ input, select, textarea {
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
 			color: #fff;
+		}
+
+		.wrapper.style2 a{
+			color: white;
 		}
 
 			.wrapper.style2 input[type="button"]:hover,
@@ -2569,6 +2581,14 @@ input, select, textarea {
 				padding: 3px 0 3px 0;
 			}
 
+			#banner .inner header.servicenow{
+				border: none;
+			}
+
+			#banner .inner header.servicenow hr{
+				border: none;
+			}
+
 				#banner .inner header h2 {
 					border-bottom: solid 2px;
 					border-top: solid 2px;
@@ -2608,7 +2628,7 @@ input, select, textarea {
 	}
 
 	#me{
-		width: 25%;
+		width: 15%;
 		border-radius: 100%;
 		margin-bottom: 2em;
 	}
