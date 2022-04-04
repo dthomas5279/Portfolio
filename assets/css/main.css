@@ -3202,6 +3202,8 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+
+
 		/* Basic */
 
 			body {
@@ -3249,6 +3251,10 @@ input, select, textarea {
 
 				header p {
 					text-align: center;
+				}
+
+				ul.buttons.stacked{
+					display: block;
 				}
 
 			footer.major {
