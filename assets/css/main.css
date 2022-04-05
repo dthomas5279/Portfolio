@@ -1877,7 +1877,8 @@ input, select, textarea {
 
 		iframe{
 			max-width: 100%;
-			aspect-ratio: 640/360;
+			padding: 0;
+			margin: 0;
 		}
 
 			.image.featured img {
