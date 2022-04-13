@@ -2502,6 +2502,16 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+/* Specialized */
+
+.njmvc *{
+	padding-bottom: 0;
+}
+
+.uneven section header{
+	margin-top: 90px;
+}
+
 /* Banner */
 
 	@-moz-keyframes reveal-banner {
